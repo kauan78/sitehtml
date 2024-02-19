@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* height: 100vh; */
+    background: url("../../res/fundo.jpg");
+    background-size: cover;
+}
+
+.tela-pesquisa{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.texto input{
+    width: 500px;
+    height: 50px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    background-color: rgb(255, 246, 246);
+    border: none;
+    outline: none;
+    text-indent: 20px;
+}
+
+.botao button{
+    width: 150px;
+    height: 50px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: rgb(56, 206, 124);
+    border: none;
+    cursor: pointer;
+}
+
+.botao-2{
+   display: flex;
+   justify-content: center;
+}
+.botao-2 button{
+    width: 150px;
+    height: 50px;
+}
+
+.logo{
+    background-color:rgb(101, 247, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.botao-3{
+display: flex;
+justify-content: center;
+}
+
+.botao-3-de-login{
+    /* background-color: white; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+}
+
+.botao-3-de-login button{
+    width: 100px;
+    height: 50%;
+}
+
+.botao-3-de-login .texto    {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(96, 248, 223);
+}
+
+a{
+    color: rgb(35, 183, 209);
+}
+
+
+
+
